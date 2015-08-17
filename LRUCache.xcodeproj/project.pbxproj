@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A82F33B31B7D830000A9F670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F33B21B7D830000A9F670 /* main.m */; };
-		A82F33B61B7D830000A9F670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F33B51B7D830000A9F670 /* AppDelegate.m */; };
-		A82F33B91B7D830000A9F670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F33B81B7D830000A9F670 /* ViewController.m */; };
 		A82F33BC1B7D830000A9F670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82F33BA1B7D830000A9F670 /* Main.storyboard */; };
 		A82F33BE1B7D830000A9F670 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82F33BD1B7D830000A9F670 /* Images.xcassets */; };
 		A82F33C11B7D830000A9F670 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A82F33BF1B7D830000A9F670 /* LaunchScreen.xib */; };
 		A82F33CD1B7D830100A9F670 /* LRUCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82F33CC1B7D830100A9F670 /* LRUCacheTests.m */; };
+		A8838E761B82A2B3008B29F7 /* VM_LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A8838E751B82A2B3008B29F7 /* VM_LRUCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +29,14 @@
 		A82F33AD1B7D830000A9F670 /* LRUCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRUCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82F33B11B7D830000A9F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82F33B21B7D830000A9F670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A82F33B41B7D830000A9F670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A82F33B51B7D830000A9F670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A82F33B71B7D830000A9F670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A82F33B81B7D830000A9F670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A82F33BB1B7D830000A9F670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A82F33BD1B7D830000A9F670 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A82F33C01B7D830000A9F670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A82F33C61B7D830100A9F670 /* LRUCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRUCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82F33CB1B7D830100A9F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82F33CC1B7D830100A9F670 /* LRUCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRUCacheTests.m; sourceTree = "<group>"; };
+		A8838E751B82A2B3008B29F7 /* VM_LRUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VM_LRUCache.m; sourceTree = "<group>"; };
+		A8838E771B82A2EB008B29F7 /* VM_LRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VM_LRUCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +78,8 @@
 		A82F33AF1B7D830000A9F670 /* LRUCache */ = {
 			isa = PBXGroup;
 			children = (
-				A82F33B41B7D830000A9F670 /* AppDelegate.h */,
-				A82F33B51B7D830000A9F670 /* AppDelegate.m */,
-				A82F33B71B7D830000A9F670 /* ViewController.h */,
-				A82F33B81B7D830000A9F670 /* ViewController.m */,
+				A8838E751B82A2B3008B29F7 /* VM_LRUCache.m */,
+				A8838E771B82A2EB008B29F7 /* VM_LRUCache.h */,
 				A82F33BA1B7D830000A9F670 /* Main.storyboard */,
 				A82F33BD1B7D830000A9F670 /* Images.xcassets */,
 				A82F33BF1B7D830000A9F670 /* LaunchScreen.xib */,
@@ -219,8 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82F33B91B7D830000A9F670 /* ViewController.m in Sources */,
-				A82F33B61B7D830000A9F670 /* AppDelegate.m in Sources */,
+				A8838E761B82A2B3008B29F7 /* VM_LRUCache.m in Sources */,
 				A82F33B31B7D830000A9F670 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +412,7 @@
 				A82F33D21B7D830100A9F670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A82F33D31B7D830100A9F670 /* Build configuration list for PBXNativeTarget "LRUCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +421,7 @@
 				A82F33D51B7D830100A9F670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
